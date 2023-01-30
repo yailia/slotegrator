@@ -1,0 +1,35 @@
+.header-buzz {
+  padding-top: 1.3125rem;
+  padding-bottom: 1.3125rem;
+  background-color: var(--alice-blue);
+  transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.header-buzz__desc {
+  color: var(--text-color-90);
+  font-size: 0.75rem;
+}
+
+.header-buzz__desc {
+  margin-right: auto;
+}
+
+.header-buzz__container {
+  display: flex;
+  align-items: center;
+  gap: 1.635rem;
+}
+
+.header-buzz__btn {
+  background-color: transparent;
+}
+
+.header-buzz_hide {
+  padding: 0;
+  overflow: hidden;
+  height: 0;
+
+  .header-buzz__container {
+    display: none;
+  }
+}

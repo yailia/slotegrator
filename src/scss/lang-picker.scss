@@ -1,0 +1,34 @@
+.lang-picker__list {
+  --offset: 0.625rem;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  position: absolute;
+  width: fit-content;
+  top: calc(100% + var(--offset));
+  right: 0;
+  background-color: #FFFFFF;
+  display: none;
+}
+
+.lang-picker__list::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: calc(var(--offset) * -1);
+  right: 0;
+  height: var(--offset);
+
+}
+
+.lang-picker {
+  position: relative;
+}
+
+.lang-picker:hover {
+  .lang-picker__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+}
+

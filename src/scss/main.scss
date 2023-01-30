@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background-color: inherit;
+}
+
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 1.5625rem;
+  padding-right: 1.5625rem;
+  max-width: 100%;
+}
+
+.btn {
+  border-radius: 0.625rem;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+span {
+  line-height: 1;
+}

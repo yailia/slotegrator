@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header/footer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="index.js"></script>
+</head>
+<body>
+  <header class="header">
+    <label class="header__close-btn header__label close-btn js-buzz-label" for="close-buzz" aria-label="close this block">
+    </label>
+    <input class="header__checkbox js-checkbox" type="checkbox" id="close-buzz">
+    <div class="header__buzz header-buzz js-hiding-buzz">
+      <div class="container header-buzz__container js-buzz">
+        <span class="header-buzz__desc">You’re viewing international version of website. Choose preferred region to see language localized content.</span>
+        <div class="header-buzz__lang-picker lang-picker" aria-haspopup="true">
+          <div class="btn lang lang_de lang-btn lang-picker__btn">German
+            <ul class="lang-picker__list">
+              <li class="lang-picker__item">
+                <a href="" class="lang lang_de">German</a>
+              </li>
+              <li class="lang-picker__item">
+                <a href="" class="lang lang_en">English</a>
+              </li>
+              <li class="lang-picker__item lang-item">
+                <a href="#dialog" class="lang lang_other">Other Languages</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__main main-header container">
+      <div class="header__logo logo">
+        <h1 class="logo__title">
+          <a href="/" class="logo__title">Slotegrator</a>
+        </h1>
+      </div>
+      <div class="header__nav-menu js-nav-menu">
+        <form class="header__search">
+          <input class="header__search-input" type="text">
+        </form>
+        <nav class="main-header__navbar navbar">
+          <ul class="navbar-menu">
+            <li class="navbar-menu__item navbar-item" aria-haspopup="true">
+              <h3 class="navbar-item__title">Solutions</h3>
+              <ul class="navbar-item__submenu submenu">
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar-menu__item navbar-item" aria-haspopup="true">
+              <h3 class="navbar-item__title">Solutions</h3>
+              <ul class="navbar-item__submenu submenu">
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar-menu__item navbar-item" aria-haspopup="true">
+              <h3 class="navbar-item__title">Solutions</h3>
+              <ul class="navbar-item__submenu submenu">
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+              </ul>
+            </li>
+            <li class="navbar-menu__item navbar-item" aria-haspopup="true">
+              <h3 class="navbar-item__title">Solutions</h3>
+              <ul class="navbar-item__submenu submenu">
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+                <li class="submenu__item submenu-item">
+                  <a href="/" class="submenu-item__link">Game providers</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__btns">
+        <button class="header__search-btn search-btn">Search</button>
+        <button class="header__contact-btn">Contact us</button>
+        <button class="header__burger js-burger" aria-label="open nav menu"></button>
+      </div>
+    </div>
+  </header>
+  <main class="main"></main>
+  <footer class="footer">
+    <nav>
+      <ul class="footer__nav footer-nav">
+        <li class="footer-nav__item footer-nav-item">
+          <h3 class="footer-nav__title footer-title">
+            <a href="/" class="footer-nav__link">Integrations</a>
+          </h3>
+          <ul class="footer-nav-item__list">
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-nav__item footer-nav-item">
+          <h3 class="footer-nav__title footer-title">
+            <a href="/" class="footer-nav__link">Integrations</a>
+          </h3>
+          <ul class="footer-nav-item__list">
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-nav__item footer-nav-item">
+          <h3 class="footer-nav__title footer-title">
+            <a href="/" class="footer-nav__link">Integrations</a>
+          </h3>
+          <ul class="footer-nav-item__list">
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-nav__item footer-nav-item">
+          <h3 class="footer-nav__title footer-title">
+            <a href="/" class="footer-nav__link">Integrations</a>
+          </h3>
+          <ul class="footer-nav-item__list">
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-nav__item footer-nav-item">
+          <h3 class="footer-nav__title footer-title">
+            <a href="/" class="footer-nav__link">Integrations</a>
+          </h3>
+          <ul class="footer-nav-item__list">
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+            <li class="footer-nav-item__item">
+              <a href="" class="footer-nav-item__link">Game providers</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="footer__contacts footer-contacts">
+      <h3 class="footer-title">Contact us</h3>
+      <div class="footer-contacts__contacts contacts">
+        <span class="contacts__desc">
+          Use only the official channels of communication listed below
+        </span>
+        <ul class="contacts__contact-list contact-list">
+          <li class="contact-list__item">
+            <a href="/" class="contact-list__link">hello@slotegrator.com</a>
+          </li>
+          <li class="contact-list__item">
+            <a href="/" class="contact-list__link">hello@slotegrator.com</a>
+          </li>
+          <li class="contact-list__item">
+            <a href="/" class="contact-list__link">hello@slotegrator.com</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="footer-contacts__socials socials-list">
+        <li class="socials-list__item" title="linkedIn">
+          <a href="/" class="socials-list__link">linkedIn</a>
+        </li>
+        <li class="socials-list__item" title="linkedIn">
+          <a href="/" class="socials-list__link">linkedIn</a>
+        </li>
+        <li class="socials-list__item" title="linkedIn">
+          <a href="/" class="socials-list__link">linkedIn</a>
+        </li>
+        <li class="socials-list__item" title="linkedIn">
+          <a href="/" class="socials-list__link">linkedIn</a>
+        </li>
+        <li class="socials-list__item" title="linkedIn">
+          <a href="/" class="socials-list__link">linkedIn</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__certificates certificates">
+      <div class="certificates__api">
+        API certified for:
+        <ul class="certificates__coutries certificates-cutries">
+          <li class="certificates-cutries__item lang-item">Lithuania</li>
+          <li class="certificates-cutries__item lang-item">Lithuania</li>
+        </ul>
+      </div>
+      <div class="certificates__certificates our-certificates">
+        Our certificates:
+        <ul class="our-certificates__list certificates-cutries">
+          <li class="our-certificates__item">Lithuania</li>
+          <li class="our-certificates__item">Lithuania</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copy copy">
+      <div class="lang-picker copy__lang-picker lang-picker_footer"></div>
+      <div class="copy__copy">
+        <ul class="copy__links-list">
+          <li class="copy__links-item">
+            <a href="/" class="copy__links-list">Sitemap</a>
+            <a href="/" class="copy__links-list">PP</a>
+          </li>
+        </ul>
+        <div class="copy__rights">© 2015-2023 Slotegrator, All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+  <dialog id="dialog" class="dialog">
+    <div class="dialog__content">
+        <h2 class="dialog__title">Other languages</h2>
+        <a href="#!" class="dialog__close-btn close-btn"aria-label="close dialog"></a>
+        <ul class="dialog__list">
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+          <li class="dialog__item">
+            <a href="#" class="lang lang_de">Русский</a>
+          </li>
+        </ul>
+    </div>
+  </dialog>
+</body>
+</html>
