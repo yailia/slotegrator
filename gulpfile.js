@@ -8,7 +8,7 @@ const browserSync = require("browser-sync").create();
 
 gulp.task("scss", function() {
   return gulp.src("./src/scss/*.scss")
-    .pipe(sass({outputStyle: "compressed", sourceMap: true}))
+    .pipe(sass({outputStyle: "expanded", sourceMap: true}))
     .pipe(concat("styles.css"))
     .pipe(gulp.dest("./dist/"))
     .pipe(browserSync.stream());
